@@ -1,0 +1,9 @@
+{
+	"name": "ADFTHOTA",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b30adf92-fe27-489c-aa68-a4f7d397d9ba",
+		"tenantId": "7d14293d-d580-4f90-8255-c6b7626eeab3"
+	}
+}

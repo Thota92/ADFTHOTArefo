@@ -1,0 +1,24 @@
+{
+	"name": "trigger_event",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "COPY_pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/raw/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/4cb67444-cf63-408d-a0b2-b9d4989d19d9/resourceGroups/JESUS/providers/Microsoft.Storage/storageAccounts/azurebolbstoragejesus",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
